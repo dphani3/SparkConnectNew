@@ -1,0 +1,307 @@
+﻿html, body
+{
+	min-height: 100%;
+	height: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0;
+	padding: 0px;
+	font-size: 11px;
+	overflow: auto;
+}
+#header_wrap
+{
+	position: relative;
+	height: 58px;
+	z-index: 1;
+	background-color: Transparent;
+}
+#header
+{
+	position: relative;
+	width: 1250px;
+	background-color: Transparent;
+	height: 100%;
+	margin: 0 auto;
+	top: 0px;
+	left: 0px;
+}
+#logoheader
+{
+	position: relative;
+	width: 300px;
+	float: left;
+	height: 80px;
+	vertical-align: middle;
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-border-bottom-left-radius: 4px;
+}
+#textheader
+{
+	position: absolute;
+	width: 942px;
+	height: 80px;
+	float: right;
+	right: 0px;
+	z-index: 0px;
+	background-repeat: repeat-x;
+	top: 0px;
+}
+#textheader_content
+{
+	vertical-align: middle;
+	padding-top: 25px;
+	padding-left: 50px;
+}
+#textheader_content #lblHeader
+{
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.header_extended_wrap
+{
+	clear: both;
+	height: 4px;
+	position: relative;
+	z-index: 1;
+	font-size: large;
+}
+
+#content_wrap
+{
+	line-height: 2.0em;
+	position: relative;
+	width: 1250px;
+	margin: 0 auto;
+	min-height: 700px;
+	height: 100%;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-border-top-left-radius: 4px;
+}
+#content_header
+{
+	margin: 0 auto;
+	width: 100%;
+	height: 630px;
+}
+#content_data
+{
+	margin: 0 auto;
+	width: 900px;
+	height: 630px;
+	vertical-align: middle;
+}
+#content_extended_wrap
+{
+	clear: both;
+	height: 60px;
+	position: relative;
+	z-index: 1;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: left;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.content_input td
+{
+	width: 50%;
+}
+.left_cell
+{
+	font-weight: bold;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 25px;
+	padding-right: 2px;
+	vertical-align: middle;
+	text-align: left;
+}
+.right_cell
+{
+	padding: 2px;
+	vertical-align: middle;
+	text-align: left;
+}
+.span_cell
+{
+	padding: 10px;
+	vertical-align: middle;
+}
+.capNoBot
+{
+	width: 250px;
+	font-size: xx-small;
+}
+.AstrickMandatory
+{
+	color: #FF3300;
+}
+.txtContent
+{
+	height: 15px;
+	width: 130px;
+	font-size: 11px;
+}
+#txtExpiryMonth
+{
+	height: 15px;
+	width: 20px;
+	color: #BBBBBB;
+	font-size: 11px;
+}
+#txtExpiryYear
+{
+	height: 15px;
+	width: 35px;
+	color: #BBBBBB;
+	font-size: 11px;
+}
+#txtCvvNumber
+{
+	height: 15px;
+	width: 30px;
+	font-size: 11px;
+}
+.imgCards
+{
+	vertical-align: middle;
+	height: 18px;
+}
+#lblCurrencyValue
+{
+	font-weight: bold;
+	font-style: italic;
+}
+#lblAmountValue
+{
+	font-weight: bold;
+}
+.amountCurrency
+{
+	vertical-align: middle;
+}
+#txtCaptcha
+{
+	height: 15px;
+	width: 70px;
+	font-size: 11px;
+}
+.global_btn
+{
+	background: #5D8AA8 url(../Images/button_bg.jpg) repeat-x;
+	color: #000;
+	width: auto;
+	min-width: 60px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 23px;
+	text-decoration: none;
+	cursor: hand;
+	border: 1px solid #bcbcbc;
+	-moz-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-margin-start: -1px;
+}
+#content_footer
+{
+	position: relative;
+	height: 50px;
+	left: 4px;
+	top: 6px;
+}
+#footer
+{
+	position: relative;
+	height: 35px;
+	clear: both;
+	width: 1250px;
+	margin: 0 auto;
+	font-size: 15px;
+	background-repeat: repeat-x;
+	font-size: 11px;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-border-bottom-left-radius: 4px;
+	-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+}
+.footer_link
+{
+	text-decoration: underline;
+}
+.validationSummary
+{
+	padding: 2px 3px 13px 4px;
+	font-size: 12px;
+	width: 99%;
+}
+.validationHeader
+{
+	left: 0px;
+	position: relative;
+	font-size: 11px;
+	height: 18px;
+	font-weight: bold;
+	padding-top: 3px;
+	line-height: 1.2em;
+}
+.validationSummary ul
+{
+	padding-top: 5px;
+	padding-left: 45px;
+	list-style: none;
+	font-size: 11px;
+	font-style: italic;
+}
+.validationSummary ul li
+{
+	padding: 2px 0px 0px 15px;
+	background-image: url(../Images/Warning.gif);
+	background-position: 0px 6px;
+	background-repeat: no-repeat;
+}
+#divProgress
+{
+	position: absolute;
+	vertical-align: middle;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+}
+#lblProgress
+{
+	font-size: large;
+}
+#divBackGround
+{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	background-color: Gray;
+	filter: alpha(opacity=20);
+	opacity: 0.2;
+	z-index: 500;
+}
+#tblErrorContent
+{
+	margin: 0 auto;
+	height: 630px;
+	font-size: 15px;
+}
+.validationCheck
+{
+}
+

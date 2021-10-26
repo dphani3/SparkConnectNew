@@ -1,0 +1,2 @@
+﻿<asp:TextBox SkinId="txtSkin" runat="server" autocomplete="off" />
+<asp:Image SkinId="imgProgressSkin" runat="server" ImageUrl="../Images/ajax-loader-fb-default.gif" />

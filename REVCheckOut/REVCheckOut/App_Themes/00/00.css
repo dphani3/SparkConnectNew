@@ -1,0 +1,81 @@
+﻿
+#logoheader
+{
+	background-color: #FFFFFF;
+	border-bottom: solid 1px #bbbbbb;
+	border-left: solid 1px #bbbbbb;
+	border-right: solid 1px #bbbbbb;
+	border-top: solid 1px #bbbbbb;
+}
+#textheader
+{
+	background-color: #1B80B3;
+	border-bottom: solid 1px #bbbbbb;
+	border-left: solid 1px #bbbbbb;
+	border-right: solid 1px #bbbbbb;
+	border-top: solid 1px #bbbbbb;
+}
+#textheader_content #lblHeader
+{
+	color: #FFFFFF;
+}
+#content_wrap
+{
+	background-color: #f4f4f4;
+	border-bottom: solid 1px #bbbbbb;
+	border-left: solid 1px #bbbbbb;
+	border-right: solid 1px #bbbbbb;
+	border-top: solid 1px #bbbbbb;
+}
+#content_data
+{
+	border-bottom: dashed 1px #1B80B3;
+	border-left: dashed 1px #1B80B3;
+	border-right: dashed 1px #1B80B3;
+	border-top: dashed 1px #1B80B3;
+}
+#content_extended_wrap
+{
+	color: #336699;
+	font-size: 12px;
+}
+.capNoBot
+{
+	border-bottom: solid 1px #bbbbbb;
+	border-left: solid 1px #bbbbbb;
+	border-right: solid 1px #bbbbbb;
+	border-top: solid 1px #bbbbbb;
+}
+#content_footer
+{
+	border: 0px solid #999;
+}
+#footer
+{
+	background-color: #1B80B3;
+	color: #FFFFFF;
+}
+
+.validationSummary
+{
+	border: 1px solid #bbbbbb;
+}
+.validationHeader
+{
+	background-color: #1B80B3;
+	color: #FFFFFF;
+	border-bottom: 1px solid #bbbbbb;
+}
+.validationSummary ul
+{
+	color: #1B80B3;
+}
+#lblProgress
+{
+	color: #1B80B3;
+	background-color: #FFFFFF;
+}
+.footer_link
+{
+	color: #FFFFFF;
+}
