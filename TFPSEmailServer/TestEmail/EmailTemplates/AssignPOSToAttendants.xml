@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationSettings>
+	<EMailInformation>
+		<Subject>Your FocusPay Licenses: Attendant Assignment</Subject>
+		<Message>
+      <![CDATA[
+			
+      Dear @FIRST_NAME@,<br/><br/>
+You have been assigned a @PLATFORM_NAME@ POS license.<br/>
+
+You can now perform transaction through any @PLATFORM_NAME@ POS application.<br/>
+
+Any questions regarding the use of @PLATFORM_NAME@ account or need any additional assistance, please contact your administrator.<br/>
+Alternatively, you can also reach @PLATFORM_NAME@ technical support at @PLATFORM_SUPPORT_PHONE_NUMBER@ or @PLATFORM_SUPPORT_EMAIL_ADDRESS@.<br/><br/>
+
+Sincerely,<br/>
+			@MERCHANT_NAME@<br/>
+      
+@PLATFORM_NAME@<br/>
+Contact Sales at : @PLATFORM_SALES_EMAIL_ADDRESS@, @PLATFORM_SALES_PHONE_NUMBER@ <br/>
+@PLATFORM_WEBSITE@ <br/> <br/>
+
+Confidentiality Notice: The information contained in this message intended for the addressee is confidential and may constitute inside or non-public information. If you are not the addressee, please promptly delete this message and notify the sender.
+ 
+
+      ]]>
+		</Message>
+	</EMailInformation>
+</ConfigurationSettings>

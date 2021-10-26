@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationSettings>
+  <EMailInformation>
+    <Subject>Designated Administrator for </Subject>
+    <Message>
+      <![CDATA[  
+      <div style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;">
+        Hi @FIRST_NAME@,<br />
+        <br />
+        Congratulations! You are now the designated Administrator for @ENTITY_NAME@.<br />
+        <br />
+        Your existing @BRAND_NAME@ account has been granted administrative rights to
+        manage the @ENTITY_NAME@ and all its administrative tasks. Please continue to use your existing
+        account credentials to access your account. <br />
+        <br />
+		    If you have any questions regarding your @BRAND_NAME@ account, or if you need any additional assistance, 
+		    please contact our Customer Care Team at @COMPANY_SUPPORT_EMAIL@ or @COMPANY_SUPPORT_PHONE@.<br />
+        <br />
+        Sincerely,<br /><br />
+        @BRAND_NAME@<br />        
+        Contact Sales at : @COMPANY_SALES_EMAIL@,@COMPANY_SALES_PHONE@<br />
+        Contact Support at : @COMPANY_SUPPORT_EMAIL@,@COMPANY_SUPPORT_PHONE@<br />        
+        <br />
+        <p style="font-size: 10px;">
+        <U>Disclaimer and Confidentiality Notice</U>: Please do not reply to this email. This is a system generated email. The information 
+            contained in this message intended for the addressee is confidential and may constitute
+            inside or non-public information. If you are not the addressee, please promptly
+            delete this message and notify the sender.
+        </p>
+    </div>
+]]>
+    </Message>
+  </EMailInformation>
+</ConfigurationSettings>

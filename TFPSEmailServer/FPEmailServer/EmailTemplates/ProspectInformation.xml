@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationSettings>
+	<EMailInformation>
+		<Subject></Subject>
+		<Message>
+			<![CDATA[
+			<div style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;">
+				Hello,
+				<br />
+				<br />
+				There is a new prospect interested in your product. The details of the prospect
+				is as follows:
+				<br />        
+				<pre style="line-height:1.8em;">
+	Name                           : @PROSPECT_NAME@
+	Phone No                       : @PROSPECT_PHONE@
+	Email Address                  : @PROSPECT_EMAIL@
+	Interested Platform(s)         : @PROSPECT_PLATFORMS@
+	Remarks                        : @PROSPECT_REMARKS@
+	No. Of Licenses                : @PROSPECT_LICENSES_NUMBER@
+	Preferred Program              : @PROSPECT_PREFERRED_PROGRAM@
+	Industry                       : @PROSPECT_INDUSTRY@</pre>
+			</div>
+			]]>
+		</Message>
+	</EMailInformation>
+</ConfigurationSettings>

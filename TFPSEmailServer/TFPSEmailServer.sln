@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEmail", "TestEmail\TestEmail.csproj", "{F1EA931F-19FB-4861-A856-BB03A1BA0D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailBusinessLogic", "EmailBusinessLogic\EmailBusinessLogic.csproj", "{3B56057E-0D93-44B5-9EF7-9AA1F40BD51D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailDataLayer", "EmailDataLayer\EmailDataLayer.csproj", "{7EA4995A-2869-4305-BFF0-3AD6B74A852E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogManager", "LogManager\LogManager.csproj", "{3867E42C-461F-4BDF-86DA-B4964ECFBF11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionManager", "ExceptionManager\ExceptionManager.csproj", "{8BF72C93-C7D5-4525-8DD0-502727EC664C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFPSEmailServer", "FPEmailServer\TFPSEmailServer.csproj", "{5D4F86D4-4022-4972-AEC0-51635999D474}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TFPSEmailServerInstaller", "TFPSEmailServerInstaller\TFPSEmailServerInstaller.vdproj", "{0B5AE245-02E8-4713-884D-AE7225F019BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1EA931F-19FB-4861-A856-BB03A1BA0D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EA931F-19FB-4861-A856-BB03A1BA0D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EA931F-19FB-4861-A856-BB03A1BA0D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EA931F-19FB-4861-A856-BB03A1BA0D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B56057E-0D93-44B5-9EF7-9AA1F40BD51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B56057E-0D93-44B5-9EF7-9AA1F40BD51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B56057E-0D93-44B5-9EF7-9AA1F40BD51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B56057E-0D93-44B5-9EF7-9AA1F40BD51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA4995A-2869-4305-BFF0-3AD6B74A852E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA4995A-2869-4305-BFF0-3AD6B74A852E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA4995A-2869-4305-BFF0-3AD6B74A852E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA4995A-2869-4305-BFF0-3AD6B74A852E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3867E42C-461F-4BDF-86DA-B4964ECFBF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3867E42C-461F-4BDF-86DA-B4964ECFBF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3867E42C-461F-4BDF-86DA-B4964ECFBF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3867E42C-461F-4BDF-86DA-B4964ECFBF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF72C93-C7D5-4525-8DD0-502727EC664C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF72C93-C7D5-4525-8DD0-502727EC664C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF72C93-C7D5-4525-8DD0-502727EC664C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF72C93-C7D5-4525-8DD0-502727EC664C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4F86D4-4022-4972-AEC0-51635999D474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4F86D4-4022-4972-AEC0-51635999D474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4F86D4-4022-4972-AEC0-51635999D474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4F86D4-4022-4972-AEC0-51635999D474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B5AE245-02E8-4713-884D-AE7225F019BD}.Debug|Any CPU.ActiveCfg = Debug
+		{0B5AE245-02E8-4713-884D-AE7225F019BD}.Release|Any CPU.ActiveCfg = Release
+		{0B5AE245-02E8-4713-884D-AE7225F019BD}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

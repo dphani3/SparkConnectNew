@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationSettings>
+	<EMailInformation>
+		<Subject>Welcome to FocusPay</Subject>
+		<Message>
+      <![CDATA[  
+      Dear @FIRST_NAME@,<br/><br/>
+Thank you for choosing @PLATFORM_NAME@ as the platform to enhance your business reach. <br/><br/>
+
+@PLATFORM_NAME@ allows businesses to extend a powerful, safe and yet flexible payment processing option to its customers. <br/>
+
+You will receive a separate email with your login credentials and a temporary password. <br/>
+
+A landing page has been created for your business through which you can manage your @PLATFORM_NAME@ account. <br/>
+Please use the following link to visit your @PLATFORM_NAME@ account. <br/> 
+@COMPANY_URL@<br/><br/>
+
+Any questions regarding the use of @PLATFORM_NAME@ account or need any additional assistance, please contact your administrator.<br/>
+Alternatively, you can also reach @PLATFORM_NAME@ technical support at @PLATFORM_SUPPORT_PHONE_NUMBER@ or @PLATFORM_SUPPORT_EMAIL_ADDRESS@.<br/><br/>
+
+Thank you again for choosing @PLATFORM_NAME@. We are committed to a long and fruitful business relationship. <br/><br/>
+
+Sincerely,<br/>
+	@COMPANY_NAME@<br/><br/>
+@PLATFORM_NAME@<br/>
+
+Contact Sales at : @PLATFORM_SALES_EMAIL_ADDRESS@, @PLATFORM_SALES_PHONE_NUMBER@ <br/>
+@PLATFORM_WEBSITE@ <br/> <br/>
+
+Confidentiality Notice: The information contained in this message intended for the addressee is confidential and may constitute inside or non-public information. If you are not the addressee, please promptly delete this message and notify the sender.
+
+]]>
+		</Message>
+	</EMailInformation>
+</ConfigurationSettings>

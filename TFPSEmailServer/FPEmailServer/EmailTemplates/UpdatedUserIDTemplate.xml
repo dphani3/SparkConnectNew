@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationSettings>
+  <EMailInformation>
+    <Subject>@Company Brand Name@ - Account Change Request</Subject>
+    <Message>
+      <![CDATA[ 
+     <div style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;">
+        Hi @FIRST_NAME@,<br />
+        <br />
+        The User ID for your @BRAND_NAME@ account has been updated. Your new USER ID is as below.<BR>Please use your new USER ID to log into your @BRAND_NAME@ account on your mobile device as well as on the web portal at @COMPANY_URL@.<BR>No change has been made to your account’s existing password.<br />           
+        <br />       
+        User ID : @USER_NAME_OR_USER_CODE@<br />        
+        <br />       
+        If you did not initiate this change, please contact @BRAND_NAME@ Customer Service immediately at @COMPANY_SUPPORT_PHONE@ or @COMPANY_SUPPORT_EMAIL@. <br />       
+        <br />
+        Sincerely,<br />
+        <br />
+        @BRAND_NAME@
+		<br/>
+		<!-- @COMPANY_URL@
+		<br/> -->
+		Contact Sales at: @COMPANY_SALES_EMAIL@ or @COMPANY_SALES_PHONE@
+		<br/>
+		Contact Support at: @COMPANY_SUPPORT_EMAIL@ or @COMPANY_SUPPORT_PHONE@
+        <br />
+        <p style="font-size: 10px;">
+            <U>Disclaimer and Confidentiality Notice</U>: Please do not reply to this email. This is a system generated email. The information contained in this message intended for the addressee is confidential and may constitute inside or non-public information. If you are not the addressee, please promptly delete this message and notify the sender.
+        </p>
+    </div>
+      ]]>
+    </Message>
+  </EMailInformation>
+</ConfigurationSettings>

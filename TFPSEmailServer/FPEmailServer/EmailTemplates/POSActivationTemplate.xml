@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationSettings>
+  <EMailInformation>
+    <Subject>FocusPay POS Activation Notice</Subject>
+    <Message>
+    <![CDATA[
+		Dear @FIRST_NAME@,<br/><br/>
+
+		Your attendant @ATTENDANT_NAME@ has activated the POS application with ID @APPICATION_ID@.<br/>
+
+		You now have a total of @TOTAL@ licenses in your account.<br/>
+
+		In case you want additional POS licenses please contact your company at @COMPANY_ADMIN_EMAIL_ID@<br/><br/>
+
+		If you have any questions regarding the use of your FocusPay website or need additional assistance,<br/> 
+    please contact FocusPay technical support at @FOCUSPAY_VOICE_SUPPORT@ or @FOCUSPAY_EMAIL_SUPPORT@<br/><br/>
+
+		Thank you again for choosing FocusPay and good luck with business.<br/><br/>
+
+		Sincerely,<br/>
+		FocusPay<br/>]]>
+
+	</Message>
+  </EMailInformation>
+</ConfigurationSettings>

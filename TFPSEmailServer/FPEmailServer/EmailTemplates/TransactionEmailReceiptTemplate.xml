@@ -1,0 +1,35 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. -->
+<ConfigurationSettings>
+  <EMailInformation>
+    <Subject>Transaction Email Receipt Template</Subject>
+    <Message>
+      <![CDATA[ <div style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;"> Hi @FIRST_NAME@,<BR> <br /> 
+    Your Credit Card was used for a transaction by <B>@MERCHANT_NAME@</B>.<BR> <br /> Please contact @MERCHANT_NAME@ for any questions about
+    this transaction.<BR><br /> 
+    The transaction details are as follows. A PDF copy of the receipt is attached for your records.<BR>
+    <pre style="line-height: 1.6em;"> 
+        Transaction Type        : @TRANSACTION_TYPE@ 
+        Amount                  : @TRANSACTION_AMOUNT@ 
+        Name on Card            : @FIRST_NAME@ 
+        Card Number             : @MASKED_CARD_NUMBER@ 
+        Date and Time           : @TRANSACTION_DATE@ 
+        Status                  : @TRANSACTION_STATUS@
+        Invoice Number          : @INVOIVE_NUMBER@
+        Order Number            : @ORDER_NUMBER@
+        Notes                   : @TRANSACTION_NOTES@
+        Fee                     : @CONVENIENCE_FEE@
+        Total Amount            : @TOTAL_AMOUNT@
+    </pre> <br /> 
+    <span id='gmaps'>To view a map of the location where the transaction was made, please <a href='@GMAPS_URL@' target='_blank'>click here</a></span><br /><br />
+    Sincerely,<BR> <B>@MERCHANT_NAME@</B><BR>
+    @MERCHANT_EMAIL@ <br />
+    @MERCHANT_CONTACT_PHONE@ <br /> <br />
+    <U><B>Powered By @BRAND_NAME@:</B></U>
+    Your merchant is using <B>@BRAND_NAME@</B>; the payment application designed for Apple and Android Mobile Devices. 
+    For more information please contact @COMPANY_SALES_EMAIL@.<BR> <br /> <p style="font-size: 10px;"> <U>Disclaimer and Confidentiality
+    Notice</U>: Please do not reply to this email. This is a system generated email. The information contained in this message intended for 
+    the addressee is confidential and may constitute inside or non-public information. If you are not the addressee, please promptly 
+    delete this message and notify the sender. </p> </div> ]]></Message>
+  </EMailInformation>
+</ConfigurationSettings>

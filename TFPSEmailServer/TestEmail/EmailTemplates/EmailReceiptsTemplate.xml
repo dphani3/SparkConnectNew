@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationSettings>
+  <EMailInformation>
+    <Subject>FocusPay POS license Deassigned</Subject>
+    <Message>
+      <![CDATA[
+      
+       Dear  @FIRST_NAME@,<br/><br/>
+Thank you for your patronage. The details of your recent transaction is as below <br/> <br/>
+
+ <table style="width: 50%;" align="left">
+            <tr>
+                <td bgcolor="Gray" align="center" 
+                    style="border-style: solid; border-width: medium">
+                    &nbsp;
+                    @PLATFORM_NAME@ e Receipt</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-left-style: solid; border-right-style: solid; border-right-width: medium; border-left-width: medium">
+                    &nbsp;
+                    @RECEIPT_HEADER1@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium">
+                    &nbsp;
+                    @RECEIPT_HEADER2@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium; border-bottom-style: solid; border-bottom-width: medium;">
+                    @RECEIPT_HEADER3@ 
+                </td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium">
+                    <b>Business Name :</b> @MERCHANT_NAME@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium">
+                                       <b> Attendant Name : </b> @ATTENDANT_NAME@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium">
+                    <b> Date :</b> @DATE@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium">
+                    <b>FCRRN# :</b>@CHANAKYA_ID@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium">
+                    <b>Invoice Number :</b> @INVOICE_NUM@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium">
+                    <b>Customer Name :</b> @FIRST_NAME@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium">
+                   <b> Transaction Type :</b> @TRANSACTION_TYPE@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium">
+                    <b>Transaction ID :</b>@TRANSACTION_ID@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium">
+                    <b>Amount : </b>@AMOUNT@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium">
+                    @TIP_AMOUNT_ROW_HTML@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium; border-bottom-style: solid; border-bottom-width: medium;">
+                    <b>Card # :</b> @MASKED_CARD_NO@</td>
+            </tr>
+           
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium">
+                    @RECEIPT_FOOTER1@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium">
+                    @RECEIPT_FOOTER2@</td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    style="border-right-style: solid; border-left-style: solid; border-right-width: medium; border-left-width: medium; border-bottom-style: solid; border-bottom-width: medium;">
+                    @RECEIPT_FOOTER3@ <br /></td>
+            </tr>
+        </table>
+       <table style="width: 50%;" align="left"></table>
+        <br/>
+        <br/>
+
+Sincerely,<br/>
+@MERCHANT_NAME@.<br/><br/>
+
+@PLATFORM_NAME@<br/>
+Contact Sales at : @PLATFORM_SALES_EMAIL_ADDRESS@, @PLATFORM_SALES_PHONE_NUMBER@ <br/>
+@PLATFORM_WEBSITE@ <br/> <br/>
+
+Confidentiality Notice: The information contained in this message intended for the addressee is confidential and may constitute inside or non-public information. If you are not the addressee, please promptly delete this message and notify the sender.
+      ]]>
+    </Message>
+  </EMailInformation>
+</ConfigurationSettings>

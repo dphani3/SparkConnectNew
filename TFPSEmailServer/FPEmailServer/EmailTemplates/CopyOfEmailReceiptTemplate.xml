@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. -->
+<ConfigurationSettings>
+  <EMailInformation>
+    <Subject>eReceipt from @MERCHANT_NAME@</Subject>
+    <Message>
+      <![CDATA[ <div style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;"> Hi @FIRST_NAME@,<br /> <br /> 
+    Please find attached a copy of the receipt for the transaction on your card by <B>@MERCHANT_NAME@</B>.<BR> The date and time of 
+    the transaction is recorded as @TRANSACTION_DATE@.<BR> <br /> 
+    Sincerely,<BR> <B>@MERCHANT_NAME@</B><BR> 
+     @MERCHANT_EMAIL@ <br />
+     @MERCHANT_CONTACT_PHONE@ <br /> <br />
+    <B><U>Powered By @BRAND_NAME@:</U></B> Your merchant is using <B>@BRAND_NAME@</B>; 
+    the payment application designed for Apple and Android Mobile Devices. For more information 
+    please contact @COMPANY_SALES_EMAIL@.<BR> <br /> <p style="font-size: 10px;"> Disclaimer and 
+    Confidentiality Notice: Please do not reply to this email. This is a system generated email. 
+    The information contained in this message intended for the addressee is confidential and may 
+    constitute inside or non-public information. If you are not the addressee, please promptly delete 
+    this message and notify the sender. </p> </div> ]]></Message>
+  </EMailInformation>
+</ConfigurationSettings>

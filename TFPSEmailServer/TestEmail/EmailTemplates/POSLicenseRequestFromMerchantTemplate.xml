@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationSettings>
+	<EMailInformation>
+		<Subject>FocusPay: POS License Request</Subject>
+		<Message>
+      <![CDATA[
+Dear @FIRST_NAME@,<br/><br/>
+We request you to kindly allocate POS Licenses as below <br/><br/>
+
+Business Name: @MERCHANT_NAME@ <br/>
+No of POS Licenses : @NO_OF_POS_LICENSES@<br/><br/>
+ 
+
+Sincerely,<br/>
+@NAME@<br/><br/>
+
+@PLATFORM_NAME@<br/>
+Contact Sales at : @PLATFORM_SALES_EMAIL_ADDRESS@, @PLATFORM_SALES_PHONE_NUMBER@ <br/>
+@PLATFORM_WEBSITE@ <br/> <br/>
+
+Confidentiality Notice: The information contained in this message intended for the addressee is confidential and may constitute inside or non-public information. If you are not the addressee, please promptly delete this message and notify the sender.
+   
+
+]]>
+
+		</Message>
+	</EMailInformation>
+</ConfigurationSettings>

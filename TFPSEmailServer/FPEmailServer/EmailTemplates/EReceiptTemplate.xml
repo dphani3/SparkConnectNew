@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationSettings>
+  <EMailInformation>
+    <Subject>FocusPay POS license Deassigned</Subject>
+    <Message>
+      <![CDATA[
+      
+       Dear  @FIRST_NAME@,<br/><br/>
+Thank you for your patronage. The details of your recent transaction is as below <br/> <br/>
+
+<table style="width: 100%;">
+            <tr>
+                <td colspan="3">
+                    @RECEIPT_HEADER1@</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    @RECEIPT_HEADER2@</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    @RECEIPT_HEADER3@</td>
+            </tr>
+            <tr>
+                <td>
+                    Attendant Name : @ATTENDANT_NAME@</td>
+                <td>
+                    Date : @TRANSACTION_DATE@</td>
+                <td>
+                    Time : @TRANSACTION_TIME@</td>
+            </tr>
+            <tr>
+                <td >
+                    Transaction Type : @TRANSACTION_TYPE@</td>
+                <td >
+                    Transaction ID :@TRANSACTION_ID@</td>
+                <td >
+                    FCRRN# :@CHANAKYA_ID@</td>
+            </tr>
+            <tr>
+                <td >
+                    Amount : @TRANSACTION_AMOUNT@</td>
+                <td >
+                </td>
+                <td >
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    Card # : @MASKED_CARD_NO@</td>
+                <td >
+                    &nbsp;</td>
+                <td >
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3" >
+                    @RECEIPT_FOOTER1@</td>
+            </tr>
+            <tr>
+                <td colspan="3" >
+                    @RECEIPT_FOOTER2@</td>
+            </tr>
+            <tr>
+                <td colspan="3" >
+                    @RECEIPT_FOOTER3@</td>
+            </tr>
+        </table>
+        <br/>
+        <br/>
+
+Sincerely,<br/>
+@MERCHANT_NAME@.<br/><br/>
+
+@PLATFORM_NAME@<br/>
+Contact Sales at : @PLATFORM_SALES_EMAIL_ADDRESS@, @PLATFORM_SALES_PHONE_NUMBER@ <br/>
+@PLATFORM_WEBSITE@ <br/> <br/>
+
+Confidentiality Notice: The information contained in this message intended for the addressee is confidential and may constitute inside or non-public information. If you are not the addressee, please promptly delete this message and notify the sender.
+      ]]>
+    </Message>
+  </EMailInformation>
+</ConfigurationSettings>

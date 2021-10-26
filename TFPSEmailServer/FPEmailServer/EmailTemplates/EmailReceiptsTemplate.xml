@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationSettings>
+  <EMailInformation>
+    <Subject>FocusPay POS license Deassigned</Subject>
+    <Message>
+      <![CDATA[
+      <div style="font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 1.7em;
+        font-size: 12px;">
+        <p style="font-size: 10px;">
+            Disclaimer and Confidentiality Notice: Please do not reply to this email. This is a system generated email. The information
+            contained in this message intended for the addressee is confidential and may constitute
+            inside or non-public information. If you are not the addressee, please promptly
+            delete this message and notify the sender.
+        </p>
+        Dear @FIRST_NAME@,
+        <br />
+        <br />
+        *FCRRN is the unique retrieval reference number that can be referenced for any assistance
+        from customer support.<br />
+        **TransactionID: Kindly use this as reference number for performing any additional
+        processing on this transaction. Please keep this information handy.
+        <br />
+        <br />
+        <table align="left" width="35%" style="border: 3px inset #808080; line-height: 1.7em;
+            font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;" cellpadding="0px"
+            cellspacing="0px">
+            <tr>
+                <td bgcolor="#999999" align="center" style="border-bottom-style: inset; border-bottom-width: 2px;
+                    border-bottom-color: #808080; font-weight: bold;" colspan="2">
+                    Receipt
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2" style="font-weight: bold;">
+                    @RECEIPT_HEADER1@
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2" style="font-weight: bold;">
+                    @RECEIPT_HEADER2@
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="border-bottom-style: inset; border-bottom-width: 2px; border-bottom-color: #808080;
+                    font-weight: bold;" colspan="2">
+                    @RECEIPT_HEADER3@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;Business Name</b>
+                </td>
+                <td align="left">
+                    : @MERCHANT_NAME@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;Attendant Name</b>
+                </td>
+                <td align="left">
+                    : @ATTENDANT_NAME@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;Transaction Date</b>
+                </td>
+                <td align="left">
+                    : @TRANSACTION_DATE@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;FCRRN#*</b>
+                </td>
+                <td align="left">
+                    : @FCRRN_NUMBER@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;Invoice Number</b>
+                </td>
+                <td align="left">
+                    : @INVOICE_NUMBER@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;Order Number</b>
+                </td>
+                <td align="left">
+                    : @ORDER_NUMBER@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;Customer Name</b>
+                </td>
+                <td align="left">
+                    : @FIRST_NAME@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;Card Number</b>
+                </td>
+                <td align="left">
+                    : @MASKED_CARD_NUMBER@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;Transaction Type</b>
+                </td>
+                <td align="left">
+                    : @TRANSACTION_TYPE@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;Transaction Status</b>
+                </td>
+                <td align="left">
+                    : @TRANSACTION_STATUS@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;Transaction ID**</b>
+                </td>
+                <td align="left">
+                    : @TRANSACTION_ID@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;Amount</b>
+                </td>
+                <td align="left">
+                    : @TRANSACTION_AMOUNT@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;Notes</b>
+                </td>
+                <td align="left">
+                    : @TRANSACTION_NOTES@
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <b>&nbsp;Fee</b>
+                </td>
+                <td align="left">
+                    : @CONVENIENCE_FEE@
+                </td>
+            </tr>
+             <tr>
+                <td align="left">
+                    <b>&nbsp;Total Amount</b>
+                </td>
+                <td align="left">
+                    : @TOTAL_AMOUNT@
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="border-top-style: outset; border-top-width: 2px; border-top-color: #808080;
+                    font-weight: bold;" colspan="2">
+                    @RECEIPT_FOOTER1@
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2" style="font-weight: bold;">
+                    @RECEIPT_FOOTER2@
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2" style="font-weight: bold;">
+                    @RECEIPT_FOOTER3@
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </div>
+            ]]>
+    </Message>
+  </EMailInformation>
+</ConfigurationSettings>

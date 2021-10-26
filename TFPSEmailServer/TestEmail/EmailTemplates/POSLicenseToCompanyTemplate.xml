@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationSettings>
+	<EMailInformation>
+		<Subject>Your FocusPay Licenses: Company Assignment</Subject>
+		<Message>
+      <![CDATA[
+			Dear @FIRST_NAME@,<br/><br/>
+You have been assigned @TOT_POS_LICENSE_AT_INSTANCE@  POS licenses. <br/>
+
+You now have a total of @TOTAL@ POS licenses in your account.<br/>
+You can now assign these POS license to your merchants for activating their @PLATFORM_NAME@  POS applications.<br/><br/>
+
+In case you want additional POS licenses please contact @PLATFORM_SALES_PHONE_NUMBER@ or @PLATFORM_SALES_EMAIL_ADDRESS@.<br/><br/>
+
+Any questions regarding the use of @PLATFORM_NAME@ account or need any additional assistance, please contact your administrator.<br/>
+Alternatively, you can also reach @PLATFORM_NAME@ technical support at @PLATFORM_SUPPORT_PHONE_NUMBER@ or @PLATFORM_SUPPORT_EMAIL_ADDRESS@.<br/><br/>
+
+Thank you again for choosing @PLATFORM_NAME@. We are committed to a long and fruitful business relationship. <br/><br/>
+
+Sincerely,<br/>
+@PLATFORM_NAME@<br/><br/>
+@PLATFORM_NAME@<br/>
+Contact Sales at : @PLATFORM_SALES_EMAIL_ADDRESS@, @PLATFORM_SALES_PHONE_NUMBER@ <br/>
+@PLATFORM_WEBSITE@ <br/> <br/>
+
+Confidentiality Notice: The information contained in this message intended for the addressee is confidential and may constitute inside or non-public information. If you are not the addressee, please promptly delete this message and notify the sender.
+
+
+      ]]>
+
+		</Message>
+	</EMailInformation>
+</ConfigurationSettings>

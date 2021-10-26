@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationSettings>
+  <EMailInformation>
+    <Subject>Updated User ID Migration</Subject>
+    <Message>
+      <![CDATA[ 
+     <div style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;">
+        Dear @FIRST_NAME@,<br />
+        <br />
+        @BRAND_NAME@ now allows you to login with a User ID of your choice. To allow seamless transition to the new system, you will be allowed 
+        to use your existing User Name (email address / User code) to login. You can now use the following User ID to access your @BRAND_NAME@ account. 
+        You can continue using your existing password.<br />           
+        <br />       
+        User ID : @USER_NAME_OR_USER_CODE@<br />        
+        <br />
+        You have ONE TIME option to change your User ID using the management portal or the POS. The User ID needs to be a minimum of @MIN_UID_LENGTH@
+        characters (Numeric only, Alphabets only, Combination of Numeric and Alphabets).<br /> 
+        <br />      
+        Any questions regarding the use of @BRAND_NAME@ account or if you need any additional
+        assistance, please contact support.<br />       
+        <br />
+        Sincerely,<br />
+        <br />
+        @BRAND_NAME@<br />
+        Contact Sales at : @COMPANY_SALES_EMAIL@,@COMPANY_SALES_PHONE@<br />
+        Contact Support at : @COMPANY_SUPPORT_EMAIL@,@COMPANY_SUPPORT_PHONE@<br />
+        <br />
+        <p style="font-size: 10px;">
+            Disclaimer and Confidentiality Notice: Please do not reply to this email. This is
+            a system generated email. The information contained in this message intended for
+            the addressee is confidential and may constitute inside or non-public information.
+            If you are not the addressee, please promptly delete this message and notify the
+            sender.
+        </p>
+    </div>
+      ]]>
+    </Message>
+  </EMailInformation>
+</ConfigurationSettings>

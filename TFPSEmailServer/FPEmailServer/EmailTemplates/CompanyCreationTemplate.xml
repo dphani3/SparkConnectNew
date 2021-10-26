@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationSettings>
+	<EMailInformation>
+		<Subject></Subject>
+		<Message>
+      <![CDATA[		
+      
+     <div style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;">
+        Dear @FIRST_NAME@,<br />
+        <br />
+        Thank you for choosing @BRAND_NAME@ as the platform to enhance your business reach.
+        @BRAND_NAME@ allows businesses to extend a powerful, safe and yet flexible payment
+        processing option to its customers.
+        <br />
+        <br />
+        You will receive a separate email with your login credentials and a temporary password.<br />
+        <br />
+        A landing page has been created for your business through which you can manage your
+        @BRAND_NAME@ account. Please use the following link to visit your @BRAND_NAME@ account:
+        <br />
+        @COMPANY_URL@<br />
+        <p style="background-color: Yellow">
+            Please use the above link to enroll merchants into your solutions. All merchants
+            enrolling to this program shall have individual merchant accounts under your company.
+            Your merchants are required to use this link for their enrollment process to register
+            under your company.
+        </p>
+        Any questions regarding the use of @BRAND_NAME@ account or if you need any additional assistance,
+        please contact support.<br />
+        <br />
+        Thank you again for choosing @BRAND_NAME@. We are committed to a long and fruitful
+        business relationship.<br />
+        <br />
+        Sincerely,<br /><br />
+        @BRAND_NAME@<br />        
+        Contact Sales at : @COMPANY_SALES_EMAIL@,@COMPANY_SALES_PHONE@<br />
+        Contact Support at : @COMPANY_SUPPORT_EMAIL@,@COMPANY_SUPPORT_PHONE@<br /> 
+        <br />
+        <p style="font-size: 10px;">
+            Disclaimer and Confidentiality Notice: Please do not reply to this email. This is a system generated email. The information
+            contained in this message intended for the addressee is confidential and may constitute
+            inside or non-public information. If you are not the addressee, please promptly
+            delete this message and notify the sender.
+        </p>
+    </div>
+]]>
+		</Message>
+	</EMailInformation>
+</ConfigurationSettings>
