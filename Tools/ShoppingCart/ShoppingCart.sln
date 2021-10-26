@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ShoppingCart", "ShoppingCart\", "{DA7A8214-FFFD-49EC-BC2F-E6F2385AC922}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = ""
+		Debug.AspNetCompiler.VirtualPath = "/ShoppingCart"
+		Debug.AspNetCompiler.PhysicalPath = "ShoppingCart\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ShoppingCart\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ShoppingCart"
+		Release.AspNetCompiler.PhysicalPath = "ShoppingCart\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ShoppingCart\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56848"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2CFEAB61-6A3B-4EB8-B523-560B4BEEF521}") = "ShoppingCart_deploy", "ShoppingCart_deploy\ShoppingCart_deploy.wdproj", "{BA33178E-ED6B-4543-BEEE-251B5D59183B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ShoppingCart Installer", "ShoppingCart Installer\ShoppingCart Installer.vdproj", "{8D804BD3-13DC-4A54-86B9-AA274BC3AFD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA7A8214-FFFD-49EC-BC2F-E6F2385AC922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7A8214-FFFD-49EC-BC2F-E6F2385AC922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7A8214-FFFD-49EC-BC2F-E6F2385AC922}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7A8214-FFFD-49EC-BC2F-E6F2385AC922}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BA33178E-ED6B-4543-BEEE-251B5D59183B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA33178E-ED6B-4543-BEEE-251B5D59183B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA33178E-ED6B-4543-BEEE-251B5D59183B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA33178E-ED6B-4543-BEEE-251B5D59183B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D804BD3-13DC-4A54-86B9-AA274BC3AFD6}.Debug|Any CPU.ActiveCfg = Debug
+		{8D804BD3-13DC-4A54-86B9-AA274BC3AFD6}.Debug|Any CPU.Build.0 = Debug
+		{8D804BD3-13DC-4A54-86B9-AA274BC3AFD6}.Release|Any CPU.ActiveCfg = Release
+		{8D804BD3-13DC-4A54-86B9-AA274BC3AFD6}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
