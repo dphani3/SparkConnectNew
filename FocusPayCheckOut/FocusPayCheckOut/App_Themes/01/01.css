@@ -1,0 +1,84 @@
+﻿html, body
+{
+	background-color: #E9E7E2;
+}
+#logoheader
+{
+	background-color: #FFFFFF;
+	border-bottom: solid 1px #bbbbbb;
+	border-left: solid 1px #bbbbbb;
+	border-right: solid 1px #bbbbbb;
+	border-top: solid 1px #bbbbbb;
+}
+#textheader
+{
+	background-color: #C21E0C;
+	border-bottom: solid 1px #bbbbbb;
+	border-left: solid 1px #bbbbbb;
+	border-right: solid 1px #bbbbbb;
+	border-top: solid 1px #bbbbbb;
+}
+#textheader_content #lblHeader
+{
+	color: #E9E7E2;
+}
+#content_wrap
+{
+	background-color: #F4F4F4;
+	border-bottom: solid 1px #bbbbbb;
+	border-left: solid 1px #bbbbbb;
+	border-right: solid 1px #bbbbbb;
+	border-top: solid 1px #bbbbbb;
+}
+#content_data
+{
+	border-bottom: dashed 1px #C21E0C;
+	border-left: dashed 1px #C21E0C;
+	border-right: dashed 1px #C21E0C;
+	border-top: dashed 1px #C21E0C;
+}
+#content_extended_wrap
+{
+	color: #996633;
+	font-size: 12px;
+}
+.capNoBot
+{
+	border-bottom: solid 1px #bbbbbb;
+	border-left: solid 1px #bbbbbb;
+	border-right: solid 1px #bbbbbb;
+	border-top: solid 1px #bbbbbb;
+}
+#content_footer
+{
+	border: 0px solid #999;
+}
+#footer
+{
+	background-color: #C21E0C;
+	color: #E9E7E2;
+}
+
+.validationSummary
+{
+	border: 1px solid #bbbbbb;
+}
+.validationHeader
+{
+	background-color: #C21E0C;
+	color: #E9E7E2;
+	border-bottom: 1px solid #bbbbbb;
+}
+.validationSummary ul
+{
+	color: #C21E0C;
+}
+#lblProgress
+{
+	color:#C21E0C;
+	background-color: #E9E7E2;
+}
+.footer_link
+{
+	color: #E9E7E2;
+}

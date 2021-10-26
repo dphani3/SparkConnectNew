@@ -1,0 +1,95 @@
+header, section, footer, aside, nav, main, article, figure {display: block; }
+strong { font-weight: bold; }
+img { max-width: 100%; }
+h1, h2 { line-height: 40px; }
+h3, h4 { line-height: 20px; }
+body{
+    background-color: #e8ecef!important;
+}
+html, body, form {height: 100%} 
+.main-wrapper {min-height: 100%; padding-bottom: 30px;}
+header {color: #000000;
+    background: #FFFFFF;
+    border-bottom: 5px solid #910a0a;}
+.logo-wrap {padding:5px; color: #fff}
+header h3{line-height: 14px; text-align: center;}
+.helpText {text-align: center; margin: 10px 0 30px}
+.mandatory{color: red;font-size: 20px;top: 0;}
+.footer  
+{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    text-align: center;
+    background: #FFFFFF;
+   border-top: 5px solid #910a0a;
+   }
+.formWrap {width: 40%; margin: 10px auto}
+.errmsg{width: 60%;margin: 50px auto;font-size: 26px;}
+.remember-me {display: inline-block;}
+#CheckOutProgress {position:fixed; top:0;left:0;width:100%; height:100%; background:#000; z-index:99;opacity: 0.6; }
+#btnPay,#btnCancel{width: 75px;}
+.transaction{font-weight: bold;font-size:20px;color: #fff!important;}
+#divProgress
+{
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    width: 40%;
+    text-align: center;
+    }
+    #lblProgress{ background:transparent!important;}
+input[type="text"]:valid {
+    color: green;
+}
+.line-sep {border-color: #ccc;}
+.amount 
+{
+    font-size: 20px;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    }
+.amount span {color:#910a0a;}
+input[type="text"]:valid ~ .input-validation::before {
+    content: "✓";
+    color: green;
+}
+
+input[type="text"]:invalid {
+    color: red;
+}
+
+.has-error input {
+      border-width: 2px;
+    }
+
+.validation.text-danger:after {
+  content: 'Validation failed';
+}
+
+.validation.text-success:after {
+  content: 'Validation passed';
+}
+.input-group-addon {padding: 3px;}
+.cardTypeIcon i {width:55px; height:35px; display:inline-block; background: url(../images/card-types-sprite.png) no-repeat -85px -849px;
+-webkit-transition:background-position .5s ease-in-out;  
+    -moz-transition:background-position .5s ease-in-out;  
+    -o-transition:background-position .5s ease-in-out;  
+    transition:background-position .5s ease-in-out;
+}
+.cardTypeIcon i.default {background-position: -85px -849px;}
+.cardTypeIcon i.visa {background-position: -85px -310px;}
+.cardTypeIcon i.amex {background-position: -85px -71px;}
+.cardTypeIcon i.mastercard {background-position: -85px -191px;}
+.cardTypeIcon i.maestro {background-position: -85px -131px;}
+.cardTypeIcon i.discover {background-position: -85px -371px;}
+.btn-pay, .btn-cancel{margin: 0 10px}
+.btn-pay {background-color: #910a0a;border-color: #910a0a;}
+.btn-pay:hover, .btn-pay:focus {background-color: #7d0000;border-color: #7d0000;}
+.btn-cancel {background-color: #313131;border-color: #313131;}
+.btn-cancel:hover, .btn-cancel:focus {background-color: #1b1b1b;border-color: #1b1b1b;}
+.input-group{margin-bottom:0}
+.errorMsg{display: block;color: red;font-size: 12px;padding-left: 20px;}
+h5.validation {position: absolute;top: 293px;}
