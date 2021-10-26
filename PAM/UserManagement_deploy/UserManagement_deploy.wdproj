@@ -1,0 +1,64 @@
+﻿<!-- 
+  Microsoft Visual Studio 2008 Web Deployment Project 
+  http://go.microsoft.com/fwlink/?LinkID=104956
+
+-->
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FEE6E5C4-07D6-43A1-A58A-91AA5457151A}</ProjectGuid>
+    <SourceWebPhysicalPath>..\UserManagement</SourceWebPhysicalPath>
+    <SourceWebProject>{405D18BB-886E-4E88-B69D-43082E933536}|E:\FocusConnect\src\Branches\PAM\UserManagement</SourceWebProject>
+    <SourceWebVirtualPath>/UserManagement</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\Build\Debug\PAM\</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>UserManagement_deploy</SingleAssemblyName>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <DeleteAppDataFolder>true</DeleteAppDataFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>..\Build\Release\PAM\</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>UserManagement_deploy</SingleAssemblyName>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <DeleteAppDataFolder>true</DeleteAppDataFolder>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AuditLogger\TF.FocusPay.AuditLogger\TF.FocusPay.AuditLogger.csproj">
+      <Project>{5844A44E-30F9-40F0-B4A4-762DE9B93BD9}</Project>
+      <Name>TF.FocusPay.AuditLogger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TF.PAM.BusinessLayer\TF.PAM.BusinessLayer.csproj">
+      <Project>{59F2D938-8984-4FFC-A699-80FCB13B309F}</Project>
+      <Name>TF.PAM.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TF.PAM.DataAccessLayer\TF.PAM.DataAccessLayer.csproj">
+      <Project>{DFAA7957-4955-4A67-903D-71F63EFE1A80}</Project>
+      <Name>TF.PAM.DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WebDeployment\v9.0\Microsoft.WebDeployment.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.WebDeployment.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="BeforeMerge">
+  </Target>
+  <Target Name="AfterMerge">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

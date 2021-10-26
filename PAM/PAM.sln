@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Layer", "Application Layer", "{FA37AF9B-B9D7-4539-8006-957CB0ED0BEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business Layer", "{A027F1C7-1CF6-499C-A99A-3FDD99966EFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer", "Data Access Layer", "{817DFCB0-CF0F-4B4D-8847-B89E68866850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TF.PAM.DataAccessLayer", "TF.PAM.DataAccessLayer\TF.PAM.DataAccessLayer.csproj", "{DFAA7957-4955-4A67-903D-71F63EFE1A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TF.PAM.BusinessLayer", "TF.PAM.BusinessLayer\TF.PAM.BusinessLayer.csproj", "{59F2D938-8984-4FFC-A699-80FCB13B309F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UserManagement", "UserManagement\", "{405D18BB-886E-4E88-B69D-43082E933536}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{59F2D938-8984-4FFC-A699-80FCB13B309F}|TF.PAM.BusinessLayer.dll;{DFAA7957-4955-4A67-903D-71F63EFE1A80}|TF.PAM.DataAccessLayer.dll;{5844A44E-30F9-40F0-B4A4-762DE9B93BD9}|TF.FocusPay.AuditLogger.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/UserManagement"
+		Debug.AspNetCompiler.PhysicalPath = "UserManagement\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\UserManagement\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/UserManagement"
+		Release.AspNetCompiler.PhysicalPath = "UserManagement\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\UserManagement\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1209"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{737E9533-6402-44F5-9429-B6DEE2E02142}"
+EndProject
+Project("{2CFEAB61-6A3B-4EB8-B523-560B4BEEF521}") = "UserManagement_deploy", "UserManagement_deploy\UserManagement_deploy.wdproj", "{FEE6E5C4-07D6-43A1-A58A-91AA5457151A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installer", "Installer", "{BFF12DC6-3833-4AE4-9155-31E6E0AA9D2B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PAM Installer", "PAM Installer\PAM Installer.vdproj", "{90D63AA9-3C89-4C8D-8185-35853796B85C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TF.FocusPay.AuditLogger", "..\AuditLogger\TF.FocusPay.AuditLogger\TF.FocusPay.AuditLogger.csproj", "{5844A44E-30F9-40F0-B4A4-762DE9B93BD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Audit", "Audit", "{045BF2D2-A566-47DB-BD3C-BEF3AAD23C99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFAA7957-4955-4A67-903D-71F63EFE1A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAA7957-4955-4A67-903D-71F63EFE1A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAA7957-4955-4A67-903D-71F63EFE1A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAA7957-4955-4A67-903D-71F63EFE1A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F2D938-8984-4FFC-A699-80FCB13B309F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F2D938-8984-4FFC-A699-80FCB13B309F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F2D938-8984-4FFC-A699-80FCB13B309F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F2D938-8984-4FFC-A699-80FCB13B309F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405D18BB-886E-4E88-B69D-43082E933536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405D18BB-886E-4E88-B69D-43082E933536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405D18BB-886E-4E88-B69D-43082E933536}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{405D18BB-886E-4E88-B69D-43082E933536}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FEE6E5C4-07D6-43A1-A58A-91AA5457151A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE6E5C4-07D6-43A1-A58A-91AA5457151A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE6E5C4-07D6-43A1-A58A-91AA5457151A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE6E5C4-07D6-43A1-A58A-91AA5457151A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D63AA9-3C89-4C8D-8185-35853796B85C}.Debug|Any CPU.ActiveCfg = Debug
+		{90D63AA9-3C89-4C8D-8185-35853796B85C}.Debug|Any CPU.Build.0 = Debug
+		{90D63AA9-3C89-4C8D-8185-35853796B85C}.Release|Any CPU.ActiveCfg = Release
+		{90D63AA9-3C89-4C8D-8185-35853796B85C}.Release|Any CPU.Build.0 = Release
+		{5844A44E-30F9-40F0-B4A4-762DE9B93BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5844A44E-30F9-40F0-B4A4-762DE9B93BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5844A44E-30F9-40F0-B4A4-762DE9B93BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5844A44E-30F9-40F0-B4A4-762DE9B93BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{405D18BB-886E-4E88-B69D-43082E933536} = {FA37AF9B-B9D7-4539-8006-957CB0ED0BEC}
+		{737E9533-6402-44F5-9429-B6DEE2E02142} = {FA37AF9B-B9D7-4539-8006-957CB0ED0BEC}
+		{59F2D938-8984-4FFC-A699-80FCB13B309F} = {A027F1C7-1CF6-499C-A99A-3FDD99966EFF}
+		{DFAA7957-4955-4A67-903D-71F63EFE1A80} = {817DFCB0-CF0F-4B4D-8847-B89E68866850}
+		{FEE6E5C4-07D6-43A1-A58A-91AA5457151A} = {737E9533-6402-44F5-9429-B6DEE2E02142}
+		{90D63AA9-3C89-4C8D-8185-35853796B85C} = {BFF12DC6-3833-4AE4-9155-31E6E0AA9D2B}
+		{5844A44E-30F9-40F0-B4A4-762DE9B93BD9} = {045BF2D2-A566-47DB-BD3C-BEF3AAD23C99}
+	EndGlobalSection
+EndGlobal
