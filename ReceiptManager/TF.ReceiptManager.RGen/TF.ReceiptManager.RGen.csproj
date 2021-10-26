@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C54AD20E-B06E-4C6B-A1B0-7EAA18880068}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TF.ReceiptManager.RGen</RootNamespace>
+    <AssemblyName>TF.ReceiptManager.RGen</AssemblyName>
+    <ProjectTypeGuids>{3D9AD99F-2412-4246-B90B-4EAA41C64699};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <StartArguments>/client:"WcfTestClient.exe"</StartArguments>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Build\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Build\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FetchReceipt.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GenReceipt.cs" />
+    <Compile Include="Receipt.cs" />
+    <Compile Include="SSRS\ReportingService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TF.ReceiptManager.BusinessLayer\TF.ReceiptManager.BusinessLayer.csproj">
+      <Project>{A14177D0-4322-43B4-9C85-7D4313DB1D2D}</Project>
+      <Name>TF.ReceiptManager.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TF.ReceiptManager.GMapsConfiguration\TF.ReceiptManager.GMapsConfiguration.csproj">
+      <Project>{EB759070-C714-4A85-A22E-22782E4C03FE}</Project>
+      <Name>TF.ReceiptManager.GMapsConfiguration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TF.ReceiptManager.IRGen\TF.ReceiptManager.IRGen.csproj">
+      <Project>{E5879CD0-3266-451E-8A7F-11E9A63CA5DF}</Project>
+      <Name>TF.ReceiptManager.IRGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TF.ReceiptManager.ReportConfigurationSection\TF.ReceiptManager.ReportConfiguration.csproj">
+      <Project>{C8D034FC-B565-4CE4-8AD8-9D2174261AF6}</Project>
+      <Name>TF.ReceiptManager.ReportConfiguration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TF.ReceiptManager.SSRSConfiguration\TF.ReceiptManager.SSRSConfiguration.csproj">
+      <Project>{3973BA42-B282-464B-A0FC-4357E102B710}</Project>
+      <Name>TF.ReceiptManager.SSRSConfiguration</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{3D9AD99F-2412-4246-B90B-4EAA41C64699}">
+        <WcfProjectProperties>
+          <AutoStart>True</AutoStart>
+        </WcfProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
