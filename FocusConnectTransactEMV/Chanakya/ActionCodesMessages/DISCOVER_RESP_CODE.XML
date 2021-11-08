@@ -1,0 +1,109 @@
+<DISCOVER>
+  <ActionCode000>Approved or completed successfully.</ActionCode000>
+  <ActionCode001>Refer to Card Issuer.</ActionCode001>
+  <ActionCode002>Refer to Card Issuer's special conditions.</ActionCode002>
+  <ActionCode003>Invalid Merchant.</ActionCode003>
+  <ActionCode004>Capture Card.</ActionCode004>
+  <ActionCode005>Do not honor.</ActionCode005>
+  <ActionCode007>Pick-up Card, special condition.</ActionCode007>
+  <ActionCode008>Honor with ID.</ActionCode008>
+  <ActionCode010>Approved for partial amount.</ActionCode010>
+  <ActionCode011>Approved.</ActionCode011>
+  <ActionCode012>Invalid transaction.</ActionCode012>
+  <ActionCode013>Invalid amount.</ActionCode013>
+  <ActionCode014>Invalid Card Number.</ActionCode014>
+  <ActionCode015>Invalid Issuer.</ActionCode015>
+  <ActionCode019>Re-enter transaction.</ActionCode019>
+  <ActionCode030>Format error.</ActionCode030>
+  <ActionCode031>Bank not supported by switch.</ActionCode031>
+  <ActionCode033>Expired Card.</ActionCode033>
+  <ActionCode034>Suspected fraud.</ActionCode034>
+  <ActionCode035>Card Acceptor contact Acquirer.</ActionCode035>
+  <ActionCode036>Restricted Card.</ActionCode036>
+  <ActionCode037>Card Acceptor, call Acquirer security.</ActionCode037>
+  <ActionCode038>Allowable PIN tries exceeded.</ActionCode038>
+  <ActionCode039>No credit Account.</ActionCode039>
+  <ActionCode040>Requested function not supported.</ActionCode040>
+  <ActionCode041>Lost Card.</ActionCode041>
+  <ActionCode043>Stolen Card.</ActionCode043>
+  <ActionCode051>Decline.</ActionCode051>
+  <ActionCode053>No savings Account.</ActionCode053>
+  <ActionCode054>Expired Card.</ActionCode054>
+  <ActionCode055>Invalid PIN.</ActionCode055>
+  <ActionCode056>No Card record.</ActionCode056>
+  <ActionCode057>Transaction not permitted to Issuer/Cardholder.</ActionCode057>
+  <ActionCode058>Transaction not permitted to Acquirer/terminal.</ActionCode058>
+  <ActionCode059>Suspected fraud.</ActionCode059>
+  <ActionCode060>Card acceptor contact Acquirer.</ActionCode060>
+  <ActionCode061>Exceeds withdrawal amount limit.</ActionCode061>
+  <ActionCode062>Restricted Card.</ActionCode062>
+  <ActionCode063>Security violation.</ActionCode063>
+  <ActionCode064>Original amount incorrect.</ActionCode064>
+  <ActionCode065>Exceeds withdrawal count limit.</ActionCode065>
+  <ActionCode066>Card Acceptor call Acquirer's security dept.</ActionCode066>
+  <ActionCode067>Hard capture (requires ATM pick-up.</ActionCode067>
+  <ActionCode068>Response received too late.</ActionCode068>
+  <ActionCode075>Allowable number of PIN tries exceeded.</ActionCode075>
+  <ActionCode076>Invalid/nonexistent 'to' Account specified.</ActionCode076>
+  <ActionCode077>Invalid/nonexistent 'from' Account specified.</ActionCode077>
+  <ActionCode078>Invalid/nonexistent Account specified (general).</ActionCode078>
+  <ActionCode085>No reason to decline.</ActionCode085>
+  <ActionCode087>Network unavailable.</ActionCode087>
+  <ActionCode091>Authorization system or Issuer system inoperative.</ActionCode091>
+  <ActionCode092>Unable to route transaction.</ActionCode092>
+  <ActionCode093>Transaction cannot be completed, violation of law.</ActionCode093>
+  <ActionCode094>Duplicate transmission detected.</ActionCode094>
+  <ActionCode096>System malfunction.</ActionCode096>
+  <ActionCode099>Timeout - No longer generated.</ActionCode099>
+  <ActionCode601>REJECT: EMV Chip Declined - Merchant Submitted.</ActionCode601>
+  <ActionCode602>REJECT: Suspected Fraud - Merchant Submitted.</ActionCode602>
+  <ActionCode603>REJECT: Communications Error - Merchant Submitted.</ActionCode603>
+  <ActionCode604>REJECT: Insufficient Approval. (Partial Approvals.) Merchant Submitted.</ActionCode604>
+  <ActionCode750>Velocity Check Fail.</ActionCode750>
+  <ActionCode899>Misc. decline.</ActionCode899>
+  <ActionCode900>Invalid message type.</ActionCode900>
+  <ActionCode901>Invalid Merchant ID.</ActionCode901>
+  <ActionCode903>Debit not supported or Dup KSN in Pin_Pad Table.</ActionCode903>
+  <ActionCode904>Private Label not supported.</ActionCode904>
+  <ActionCode905>Invalid Card type.</ActionCode905>
+  <ActionCode906>Unit not active.</ActionCode906>
+  <ActionCode908>Manual Card Entry Invalid.</ActionCode908>
+  <ActionCode909>Invalid Track Information.</ActionCode909>
+  <ActionCode911>Master Merchant not found.</ActionCode911>
+  <ActionCode912>Invalid Card Format.</ActionCode912>
+  <ActionCode913>Invalid Transaction Type/Card Type Not Enabled</ActionCode913>
+  <ActionCode914>Invalid Card Length</ActionCode914>
+  <ActionCode917>Expired Card.</ActionCode917>
+  <ActionCode919>Invalid Entry Type.</ActionCode919>
+  <ActionCode920>Invalid amount.</ActionCode920>
+  <ActionCode921>Invalid message format.</ActionCode921>
+  <ActionCode923>Invalid ABA.</ActionCode923>
+  <ActionCode924>Invalid DDA.</ActionCode924>
+  <ActionCode925>Invalid TID.</ActionCode925>
+  <ActionCode926>Invalid Password.</ActionCode926>
+  <ActionCode930>Invalid zip code.</ActionCode930>
+  <ActionCode931>Invalid Address.</ActionCode931>
+  <ActionCode932>Invalid ZIP and Address.</ActionCode932>
+  <ActionCode933>Invalid CVV2.</ActionCode933>
+  <ActionCode934>Program Not Allowed</ActionCode934>
+  <ActionCode935>Invalid Device/App</ActionCode935>
+  <ActionCode940>Record Not Found.</ActionCode940>
+  <ActionCode941>Merchant ID error.</ActionCode941>
+  <ActionCode942>Refund Not Allowed.</ActionCode942>
+  <ActionCode943>Refund denied.</ActionCode943>
+  <ActionCode955>Invalid PIN block.</ActionCode955>
+  <ActionCode956>Invalid KSN.</ActionCode956>
+  <ActionCode958>Bad Status.</ActionCode958>
+  <ActionCode959>Seek Record limit exceeded.</ActionCode959>
+  <ActionCode960>Internal Key Database Error</ActionCode960>
+  <ActionCode961>TRANS not Supported. Cash Disbursement required a specific MCC.</ActionCode961>
+  <ActionCode962>Invalid PIN Key (Unknown KSN)</ActionCode962>
+  <ActionCode981>Invalid AVS.</ActionCode981>
+  <ActionCode987>Issuer Unavailable – Standin.</ActionCode987>
+  <ActionCode988>System error SD – Standin.</ActionCode988>
+  <ActionCode989>Database Error – Standin.</ActionCode989>
+  <ActionCode992>Transaction Timeout – Standin.</ActionCode992>
+  <ActionCode996>Bad Terminal ID.</ActionCode996>
+  <ActionCode997>Message rejected by association.</ActionCode997>
+  <ActionCode999>Communication failure – Standin.</ActionCode999>
+</DISCOVER>

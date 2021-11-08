@@ -1,0 +1,82 @@
+<AMEX>
+  <ActionCode000>Approved.</ActionCode000>
+  <ActionCode001>Approve with ID.</ActionCode001>
+  <ActionCode002>Partial Approval.</ActionCode002>
+  <ActionCode002>Approve VIP.</ActionCode002>
+  <ActionCode092>Approved (Express Rewards Program).</ActionCode092>
+  <ActionCode100>Deny.</ActionCode100>
+  <ActionCode101>Expired Card.</ActionCode101>
+  <ActionCode103>Deny - Invalid Manual Entry.</ActionCode103>
+  <ActionCode104>Deny - New card issued.</ActionCode104>
+  <ActionCode105>Deny - Account Canceled.</ActionCode105>
+  <ActionCode106>Exceeded PIN attempts.</ActionCode106>
+  <ActionCode107>Please call issuer.</ActionCode107>
+  <ActionCode109>Invalid Merchant.</ActionCode109>
+  <ActionCode110>Invalid Amount.</ActionCode110>
+  <ActionCode111>Invalid Account.</ActionCode111>
+  <ActionCode115>Service not permitted.</ActionCode115>
+  <ActionCode117>Invalid PIN.</ActionCode117>
+  <ActionCode119>Card member not enrolled.</ActionCode119>
+  <ActionCode122>Invalid security code.</ActionCode122>
+  <ActionCode125>Invalid effective date.</ActionCode125>
+  <ActionCode181>Format error.</ActionCode181>
+  <ActionCode182>Please wait.</ActionCode182>
+  <ActionCode183>Invalid currency code.</ActionCode183>
+  <ActionCode187>Deny - new card issued.</ActionCode187>
+  <ActionCode188>Deny - Account Canceled.</ActionCode188>
+  <ActionCode189>Deny - closed merchant.</ActionCode189>
+  <ActionCode200>Deny - pick up card.</ActionCode200>
+  <ActionCode400>Reversal Accepted.</ActionCode400>
+  <ActionCode099>Timeout - No longer generated.</ActionCode099>
+  <ActionCode601>REJECT: EMV Chip Declined - Merchant Submitted.</ActionCode601>
+  <ActionCode602>REJECT: Suspected Fraud - Merchant Submitted.</ActionCode602>
+  <ActionCode603>REJECT: Communications Error - Merchant Submitted.</ActionCode603>
+  <ActionCode604>REJECT: Insufficient Approval. (Partial Approvals.) Merchant Submitted.</ActionCode604>
+  <ActionCode750>Velocity Check Fail.</ActionCode750>
+  <ActionCode899>Misc. decline.</ActionCode899>
+  <ActionCode900>Invalid message type.</ActionCode900>
+  <ActionCode901>Invalid Merchant ID.</ActionCode901>
+  <ActionCode903>Debit not supported or Dup KSN in Pin_Pad Table.</ActionCode903>
+  <ActionCode904>Private Label not supported.</ActionCode904>
+  <ActionCode905>Invalid Card type.</ActionCode905>
+  <ActionCode906>Unit not active.</ActionCode906>
+  <ActionCode908>Manual Card Entry Invalid.</ActionCode908>
+  <ActionCode909>Invalid Track Information.</ActionCode909>
+  <ActionCode911>Master Merchant not found.</ActionCode911>
+  <ActionCode912>Invalid Card Format.</ActionCode912>
+  <ActionCode913>Invalid Transaction Type/Card Type Not Enabled</ActionCode913>
+  <ActionCode914>Invalid Card Length</ActionCode914>
+  <ActionCode917>Expired Card.</ActionCode917>
+  <ActionCode919>Invalid Entry Type.</ActionCode919>
+  <ActionCode920>Invalid amount.</ActionCode920>
+  <ActionCode921>Invalid message format.</ActionCode921>
+  <ActionCode923>Invalid ABA.</ActionCode923>
+  <ActionCode924>Invalid DDA.</ActionCode924>
+  <ActionCode925>Invalid TID.</ActionCode925>
+  <ActionCode926>Invalid Password.</ActionCode926>
+  <ActionCode930>Invalid zip code.</ActionCode930>
+  <ActionCode931>Invalid Address.</ActionCode931>
+  <ActionCode932>Invalid ZIP and Address.</ActionCode932>
+  <ActionCode933>Invalid CVV2.</ActionCode933>
+  <ActionCode934>Program Not Allowed</ActionCode934>
+  <ActionCode935>Invalid Device/App</ActionCode935>
+  <ActionCode940>Record Not Found.</ActionCode940>
+  <ActionCode941>Merchant ID error.</ActionCode941>
+  <ActionCode942>Refund Not Allowed.</ActionCode942>
+  <ActionCode943>Refund denied.</ActionCode943>
+  <ActionCode955>Invalid PIN block.</ActionCode955>
+  <ActionCode956>Invalid KSN.</ActionCode956>
+  <ActionCode958>Bad Status.</ActionCode958>
+  <ActionCode959>Seek Record limit exceeded.</ActionCode959>
+  <ActionCode960>Internal Key Database Error</ActionCode960>
+  <ActionCode961>TRANS not Supported. Cash Disbursement required a specific MCC.</ActionCode961>
+  <ActionCode962>Invalid PIN Key (Unknown KSN)</ActionCode962>
+  <ActionCode981>Invalid AVS.</ActionCode981>
+  <ActionCode987>Issuer Unavailable – Standin.</ActionCode987>
+  <ActionCode988>System error SD – Standin.</ActionCode988>
+  <ActionCode989>Database Error – Standin.</ActionCode989>
+  <ActionCode992>Transaction Timeout – Standin.</ActionCode992>
+  <ActionCode996>Bad Terminal ID.</ActionCode996>
+  <ActionCode997>Message rejected by association.</ActionCode997>
+  <ActionCode999>Communication failure – Standin.</ActionCode999>
+</AMEX>

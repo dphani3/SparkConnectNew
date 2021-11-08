@@ -1,0 +1,115 @@
+<VISA>
+  <ActionCode000>Successful approval/completion or that PIN  Verification is valid</ActionCode000>
+  <ActionCode001>Refer to card issuer.</ActionCode001>
+  <ActionCode002>Refer to card issuer, special condition.</ActionCode002>
+  <ActionCode003>Invalid merchant or service provider.</ActionCode003>
+  <ActionCode004>Pick up card.</ActionCode004>
+  <ActionCode005>Do not honor.</ActionCode005>
+  <ActionCode006>Error.</ActionCode006>
+  <ActionCode007>Pick up card, special condition (other than lost/stolen card).</ActionCode007>
+  <ActionCode010>Partial approval.</ActionCode010>
+  <ActionCode011>VIP approval.</ActionCode011>
+  <ActionCode012>Invalid transaction.</ActionCode012>
+  <ActionCode013>Invalid amount or amount exceeds maximum for card program</ActionCode013>
+  <ActionCode014>Invalid account number (no such number).</ActionCode014>
+  <ActionCode015>No such issuer.</ActionCode015>
+  <ActionCode019>Re-enter transaction.</ActionCode019>
+  <ActionCode021>No action taken (unable to back out prior transaction).</ActionCode021>
+  <ActionCode025>Unable to locate record in file, or account number is missing from inquiry</ActionCode025>
+  <ActionCode028>File is temporarily unavailable.</ActionCode028>
+  <ActionCode039>No credit account.</ActionCode039>
+  <ActionCode041>Pick up card (lost card).</ActionCode041>
+  <ActionCode043>Pick up card (stolen card).</ActionCode043>
+  <ActionCode051>Insufficient funds.</ActionCode051>
+  <ActionCode052>No checking account.</ActionCode052>
+  <ActionCode053>No savings account.</ActionCode053>
+  <ActionCode054>Expired card.</ActionCode054>
+  <ActionCode055>Incorrect PIN.</ActionCode055>
+  <ActionCode057>Transaction not permitted to cardholder.</ActionCode057>
+  <ActionCode058>Transaction not allowed at terminal.</ActionCode058>
+  <ActionCode059>Suspected fraud.</ActionCode059>
+  <ActionCode061>Activity amount limit exceeded.</ActionCode061>
+  <ActionCode062>Restricted card (for example, in Country Exclusion table)</ActionCode062>
+  <ActionCode063>Security violation.</ActionCode063>
+  <ActionCode065>Activity count limit exceeded.</ActionCode065>
+  <ActionCode075>Allowable number of PIN-entry tries exceeded.</ActionCode075>
+  <ActionCode076>Unable to locate previous message (no matching Retrieval Reference Number).</ActionCode076>
+  <ActionCode077>Repeat or reversal data are inconsistent with original message.</ActionCode077>
+  <ActionCode078>Blocked, first used - The transaction is from a new cardholder and card has not been unblocked .</ActionCode078>
+  <ActionCode080>Credit issuer unavailable or invalid date.</ActionCode080>
+  <ActionCode081>PIN cryptographic error found.</ActionCode081>
+  <ActionCode082>Negative online CVV results.</ActionCode082>
+  <ActionCode085>No reason to decline a request for account or address verification .</ActionCode085>
+  <ActionCode086>Cannot verify PIN.</ActionCode086>
+  <ActionCode091>Issuer or switch inoperative.</ActionCode091>
+  <ActionCode092>Destination cannot be found for routing.</ActionCode092>
+  <ActionCode093>Transaction cannot be completed; violation of law.</ActionCode093>
+  <ActionCode096>System malfunction.</ActionCode096>
+  <ActionCodeB1809>Surcharge amount not permitted on Visa cards.</ActionCodeB1809>
+  <ActionCodeN0805>Force STIP.</ActionCodeN0805>
+  <ActionCodeN3057>Cash service not available.</ActionCodeN3057>
+  <ActionCodeN4061>Cash request exceeds issuer limit.</ActionCodeN4061>
+  <ActionCodeN7806>Decline for CVV2 failure.</ActionCodeN7806>
+  <ActionCodeP2807>Invalid biller information.</ActionCodeP2807>
+  <ActionCodeP5055>PIN change/unblock request denied.</ActionCodeP5055>
+  <ActionCodeP6055>Unsafe PIN.</ActionCodeP6055>
+  <ActionCodeQ1807>Card authentication failed.</ActionCodeQ1807>
+  <ActionCodeR0808>Stop Payment order.</ActionCodeR0808>
+  <ActionCodeR1808>Revocation of Auth order.</ActionCodeR1808>
+  <ActionCodeR3808>Revocation of all auth order.</ActionCodeR3808>
+  <ActionCodeXA002>Forward to issuer.</ActionCodeXA002>
+  <ActionCodeXD002>Forward to issuer.</ActionCodeXD002>
+  <ActionCodeZ3999>Decline; unable to go online.</ActionCodeZ3999>
+  <ActionCode099>Timeout - No longer generated.</ActionCode099>
+  <ActionCode601>REJECT: EMV Chip Declined - Merchant Submitted.</ActionCode601>
+  <ActionCode602>REJECT: Suspected Fraud - Merchant Submitted.</ActionCode602>
+  <ActionCode603>REJECT: Communications Error - Merchant Submitted.</ActionCode603>
+  <ActionCode604>REJECT: Insufficient Approval. (Partial Approvals.) Merchant Submitted.</ActionCode604>
+  <ActionCode750>Velocity Check Fail.</ActionCode750>
+  <ActionCode899>Misc. decline.</ActionCode899>
+  <ActionCode900>Invalid message type.</ActionCode900>
+  <ActionCode901>Invalid Merchant ID.</ActionCode901>
+  <ActionCode903>Debit not supported or Dup KSN in Pin_Pad Table.</ActionCode903>
+  <ActionCode904>Private Label not supported.</ActionCode904>
+  <ActionCode905>Invalid Card type.</ActionCode905>
+  <ActionCode906>Unit not active.</ActionCode906>
+  <ActionCode908>Manual Card Entry Invalid.</ActionCode908>
+  <ActionCode909>Invalid Track Information.</ActionCode909>
+  <ActionCode911>Master Merchant not found.</ActionCode911>
+  <ActionCode912>Invalid Card Format.</ActionCode912>
+  <ActionCode913>Invalid Transaction Type/Card Type Not Enabled</ActionCode913>
+  <ActionCode914>Invalid Card Length</ActionCode914>
+  <ActionCode917>Expired Card.</ActionCode917>
+  <ActionCode919>Invalid Entry Type.</ActionCode919>
+  <ActionCode920>Invalid amount.</ActionCode920>
+  <ActionCode921>Invalid message format.</ActionCode921>
+  <ActionCode923>Invalid ABA.</ActionCode923>
+  <ActionCode924>Invalid DDA.</ActionCode924>
+  <ActionCode925>Invalid TID.</ActionCode925>
+  <ActionCode926>Invalid Password.</ActionCode926>
+  <ActionCode930>Invalid zip code.</ActionCode930>
+  <ActionCode931>Invalid Address.</ActionCode931>
+  <ActionCode932>Invalid ZIP and Address.</ActionCode932>
+  <ActionCode933>Invalid CVV2.</ActionCode933>
+  <ActionCode934>Program Not Allowed</ActionCode934>
+  <ActionCode935>Invalid Device/App</ActionCode935>
+  <ActionCode940>Record Not Found.</ActionCode940>
+  <ActionCode941>Merchant ID error.</ActionCode941>
+  <ActionCode942>Refund Not Allowed.</ActionCode942>
+  <ActionCode943>Refund denied.</ActionCode943>
+  <ActionCode955>Invalid PIN block.</ActionCode955>
+  <ActionCode956>Invalid KSN.</ActionCode956>
+  <ActionCode958>Bad Status.</ActionCode958>
+  <ActionCode959>Seek Record limit exceeded.</ActionCode959>
+  <ActionCode960>Internal Key Database Error</ActionCode960>
+  <ActionCode961>TRANS not Supported. Cash Disbursement required a specific MCC.</ActionCode961>
+  <ActionCode962>Invalid PIN Key (Unknown KSN)</ActionCode962>
+  <ActionCode981>Invalid AVS.</ActionCode981>
+  <ActionCode987>Issuer Unavailable – Standin.</ActionCode987>
+  <ActionCode988>System error SD – Standin.</ActionCode988>
+  <ActionCode989>Database Error – Standin.</ActionCode989>
+  <ActionCode992>Transaction Timeout – Standin.</ActionCode992>
+  <ActionCode996>Bad Terminal ID.</ActionCode996>
+  <ActionCode997>Message rejected by association.</ActionCode997>
+  <ActionCode999>Communication failure – Standin.</ActionCode999>
+</VISA>
